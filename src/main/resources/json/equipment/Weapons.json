@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Greataxe",
+    "type": "Martial Melee Weapon",
+    "weight": 7,
+    "amount": 1,
+    "value": 30,
+    "properties": [
+      "Heavy",
+      "Two-Handed"
+    ],
+    "damage": "1d12",
+    "damageType": "Slashing",
+    "magical": false,
+    "description": "Standard Greataxe"
+  },
+  {
+    "id": 2,
+    "name": "Handaxes",
+    "type": "Simple Melee Weapon",
+    "weight": 2,
+    "amount": 2,
+    "value": 5,
+    "properties": [
+      "Light",
+      "Thrown (Range 20/60)"
+    ],
+    "damage": "1d6",
+    "damageType": "Slashing",
+    "magical": false,
+    "description": "Standard Handaxe"
+  }
+]
