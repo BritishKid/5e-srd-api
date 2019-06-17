@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import uk.co.rowney.esrdapi.model.PcClass;
 import uk.co.rowney.esrdapi.service.ClassService;
 
 import java.io.FileNotFoundException;
@@ -22,7 +23,7 @@ public class ClassController {
     }
 
     @RequestMapping(path="/class/name={className}")
-    public String getSpecificClass(@PathVariable("className") String className) throws FileNotFoundException {
+    public PcClass getSpecificClass(@PathVariable("className") String className) throws FileNotFoundException {
 
         return classService.getClass(className);
     }

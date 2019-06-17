@@ -25,56 +25,18 @@
   },
   "classStartingEquipment": [
     {
-      "name": "Greataxe",
-      "type": "Martial Melee Weapon",
-      "weight": 7,
-      "amount": 1,
-      "value": 30,
-      "properties": [
-        "Heavy",
-        "Two-Handed"
-      ],
-      "damage": "1d12",
-      "damageType": "Slashing",
-      "magical": false,
-      "description": "Standard Greataxe"
+      "id": 0
+    }
+  ],
+  "classStartingWeapon": [
+    {
+      "id": 0
     },
     {
-      "name": "Handaxes",
-      "type": "Simple Melee Weapon",
-      "weight": 2,
-      "amount": 2,
-      "value": 5,
-      "properties": [
-        "Light",
-        "Thrown (Range 20/60)"
-      ],
-      "damage": "1d6",
-      "damageType": "Slashing",
-      "magical": false,
-      "description": "Standard Handaxe"
+      "id": 1
     },
     {
-      "name": "Explorers Pack",
-      "type": "Pack",
-      "weight": 59,
-      "amount": 1,
-      "value": 10,
-      "description": "Standard Explorers pack"
-    },
-    {
-      "name": "Javelin",
-      "type": "Simple Melee Weapon",
-      "weight": 2,
-      "amount": 2,
-      "value": 1,
-      "properties": [
-        "Thrown (Range 30/120)"
-      ],
-      "damage": "1d6",
-      "damageType": "Piercing",
-      "magical": false,
-      "description": "Standard Javelin"
+      "id": 2
     }
   ],
   "classFeatures": [

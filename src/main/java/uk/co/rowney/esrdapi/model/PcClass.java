@@ -14,7 +14,9 @@ public class PcClass {
     private String hitDice;
     private boolean spellCaster;
     private Proficiencies proficiencies;
+    private List<Weapon> classStartingWeapon;
     private List<Equipment> classStartingEquipment;
+    private List<Armour> classStartingArmour;
     private List<Archetype> archetypes;
     private List<ClassFeature> classFeatures;
 }

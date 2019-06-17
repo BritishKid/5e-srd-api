@@ -15,7 +15,7 @@ public class ClassJsonReader extends JsonReader {
 
     private Gson gson = new Gson();
 
-    public String getClass(String className) throws FileNotFoundException {
+    public PcClass getClass(String className) throws FileNotFoundException {
         className = formatRequest(className);
 
         Type REVIEW_TYPE = new TypeToken<PcClass>() {
@@ -23,9 +23,7 @@ public class ClassJsonReader extends JsonReader {
         URL url = getClass().getResource(String.format("/json/classes/%s.json", className));
         com.google.gson.stream.JsonReader reader = new com.google.gson.stream.JsonReader(new FileReader(url.getPath()));
 
-        Object o = gson.fromJson(reader, REVIEW_TYPE);
-
-        return gson.toJson(o);
+       return gson.fromJson(reader, REVIEW_TYPE);
     }
 
     private String formatRequest(String className) {

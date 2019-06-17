@@ -1,0 +1,11 @@
+[
+  {
+    "id": 0,
+    "name": "Explorers Pack",
+    "type": "Pack",
+    "weight": 59,
+    "amount": 1,
+    "value": 10,
+    "description": "Standard Explorers pack"
+  }
+]

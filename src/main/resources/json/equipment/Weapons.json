@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Greataxe",
     "type": "Martial Melee Weapon",
     "weight": 7,
@@ -16,7 +16,7 @@
     "description": "Standard Greataxe"
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Handaxes",
     "type": "Simple Melee Weapon",
     "weight": 2,
@@ -30,5 +30,20 @@
     "damageType": "Slashing",
     "magical": false,
     "description": "Standard Handaxe"
+  },
+  {
+    "id": 2,
+    "name": "Javelin",
+    "type": "Simple Melee Weapon",
+    "weight": 2,
+    "amount": 2,
+    "value": 1,
+    "properties": [
+      "Thrown (Range 30/120)"
+    ],
+    "damage": "1d6",
+    "damageType": "Piercing",
+    "magical": false,
+    "description": "Standard Javelin"
   }
 ]
