@@ -17,7 +17,7 @@ public class JsonReader {
 
     public List<String> getListOf(String source) throws FileNotFoundException {
         Type REVIEW_TYPE = new TypeToken<List<String>>() {}.getType();
-        URL url = getClass().getResource(String.format("/json/%s.json", source));
+        URL url = getClass().getResource(String.format("/json/lists/%s.json", source));
         com.google.gson.stream.JsonReader reader = new com.google.gson.stream.JsonReader(new FileReader(url.getPath()));
 
         return gson.fromJson(reader, REVIEW_TYPE);
