@@ -15,7 +15,7 @@ public class Weapon {
     private int value; //values are in gp, may need to change out of int for smaller values or String including coin type
     private String description;
     private String damage;
-    private String damageType;
+    private DamageType damageType;
     private boolean magical;
 
 }

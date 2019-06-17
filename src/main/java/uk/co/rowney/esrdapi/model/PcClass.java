@@ -19,4 +19,5 @@ public class PcClass {
     private List<Armour> classStartingArmour;
     private List<Archetype> archetypes;
     private List<ClassFeature> classFeatures;
+    private List<SpellCasting> spellCasting;
 }

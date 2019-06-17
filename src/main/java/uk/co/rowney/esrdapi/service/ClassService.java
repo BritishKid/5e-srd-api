@@ -35,6 +35,10 @@ public class ClassService {
         aClass.setClassStartingWeapon(equipmentJsonReader.getWeaponFromId(classStartingWeapons));
         aClass.setClassStartingArmour(equipmentJsonReader.getArmourFromId(classStartingArmour));
 
+        if(aClass.isSpellCaster()) {
+            //Todo map spells onto object
+        }
+
         return aClass;
     }
 }
