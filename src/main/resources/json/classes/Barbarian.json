@@ -23,22 +23,34 @@
     ],
     "tools": []
   },
-  "classStartingEquipment": [
-    {
-      "id": 0
-    }
-  ],
-  "classStartingWeapon": [
-    {
-      "id": 0
-    },
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    }
-  ],
+  "classStartingGear": {
+    "classStartingEquipment": [
+      {
+        "name": "Explorers Pack",
+        "id": 0
+      }
+    ],
+    "classStartingWeapon": [
+      {
+        "name": "Greataxe",
+        "id": 0
+      },
+      {
+        "name": "Handaxe",
+        "id": 1
+      },
+      {
+        "name": "Javelin",
+        "id": 2
+      },
+      {
+        "name": "Any Martial Melee Weapon"
+      },
+      {
+        "name": "Any Simple Weapon"
+      }
+    ]
+  },
   "classFeatures": [
     {
       "name": "Rage",

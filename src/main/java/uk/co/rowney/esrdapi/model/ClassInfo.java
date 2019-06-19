@@ -9,14 +9,12 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PcClass {
+public class ClassInfo {
     private String className;
     private String hitDice;
     private boolean spellCaster;
     private Proficiencies proficiencies;
-    private List<Weapon> classStartingWeapon;
-    private List<Equipment> classStartingEquipment;
-    private List<Armour> classStartingArmour;
+    private StartingGear startingGear;
     private List<Archetype> archetypes;
     private List<ClassFeature> classFeatures;
     private List<SpellCasting> spellCasting;

@@ -2,6 +2,7 @@ package uk.co.rowney.esrdapi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uk.co.rowney.esrdapi.dao.BackgroundJsonReader;
 import uk.co.rowney.esrdapi.model.Background;
 
 import java.io.FileNotFoundException;

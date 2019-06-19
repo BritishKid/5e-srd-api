@@ -1,0 +1,25 @@
+{
+  "proficiencies": {
+    "skillList": [
+      "Animal Handling",
+      "Survival"
+    ],
+    "tools": [
+      "One Type of Artisans Tools",
+      "Vehicles (Land)"
+    ]
+  },
+  "startingEquipment": [
+  ],
+  "definingEvent": [
+  ],
+  "feature":,
+  "personalityTrait": [
+  ],
+  "ideal": [
+  ],
+  "bond": [
+  ],
+  "flaw": [
+  ]
+}

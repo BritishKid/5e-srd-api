@@ -6,7 +6,7 @@ import uk.co.rowney.esrdapi.dao.ClassJsonReader;
 import uk.co.rowney.esrdapi.dao.EquipmentJsonReader;
 import uk.co.rowney.esrdapi.model.Armour;
 import uk.co.rowney.esrdapi.model.Equipment;
-import uk.co.rowney.esrdapi.model.PcClass;
+import uk.co.rowney.esrdapi.model.ClassInfo;
 import uk.co.rowney.esrdapi.model.Weapon;
 
 import java.io.FileNotFoundException;
@@ -25,15 +25,8 @@ public class ClassService {
         return classJsonReader.getListOf("Classes");
     }
 
-    public PcClass getClass(String className) throws FileNotFoundException {
-        PcClass aClass = classJsonReader.getClass(className);
-        List<Equipment> classStartingEquipment = aClass.getClassStartingEquipment();
-        List<Weapon> classStartingWeapons = aClass.getClassStartingWeapon();
-        List<Armour>  classStartingArmour = aClass.getClassStartingArmour();
-
-        aClass.setClassStartingEquipment(equipmentJsonReader.getEquipmentFromId(classStartingEquipment));
-        aClass.setClassStartingWeapon(equipmentJsonReader.getWeaponFromId(classStartingWeapons));
-        aClass.setClassStartingArmour(equipmentJsonReader.getArmourFromId(classStartingArmour));
+    public ClassInfo getClass(String className) throws FileNotFoundException {
+        ClassInfo aClass = classJsonReader.getClass(className);
 
         if(aClass.isSpellCaster()) {
             //Todo map spells onto object
