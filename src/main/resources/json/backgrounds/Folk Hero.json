@@ -10,16 +10,181 @@
     ]
   },
   "startingEquipment": [
+    {
+      "name": "A Set of Artisan's Tool (one of your choice)"
+    },
+    {
+      "name": "Shovel",
+      "id": 1
+    },
+    {
+      "name": "Iron Pot",
+      "id": 2
+    },
+    {
+      "name": "Common Clothes",
+      "id": 3
+    },
+    {
+      "name": "10 Gold Pieces"
+    }
   ],
   "definingEvent": [
+    {
+      "roll": 1,
+      "event": "I stood up to a tyrant’s agents."
+    },
+    {
+      "roll": 2,
+      "event": "I saved people during a natural disaster"
+    },
+    {
+      "roll": 3,
+      "event": "I stood alone against a terrible monster."
+    },
+    {
+      "roll": 4,
+      "event": "I stole from a corrupt merchant to help the poor."
+    },
+    {
+      "roll": 5,
+      "event": "I led a militia to fight off an invading army."
+    },
+    {
+      "roll": 6,
+      "event": "I broke into a tyrant’s castle and stole weapons to arm the people."
+    },
+    {
+      "roll": 7,
+      "outcome": "I trained the peasantry to use farm implements as weapons against a tyrant’s soldiers."
+    },
+    {
+      "roll": 8,
+      "outcome": "A lord rescinded an unpopular decree after I led a symbolic act of protest against it."
+    },
+    {
+      "roll": 9,
+      "outcome": "A celestial, fey, or similar creature gave me a blessing or revealed my secret origin."
+    },
+    {
+      "roll": 10,
+      "outcome": "Recruited into a lord’s army, I rose to leadership and was commended for my heroism."
+    }
   ],
-  "feature":,
+  "feature": {
+    "name": "Rustic Hospitality",
+    "description": "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+  },
   "personalityTrait": [
+    {
+      "roll": 1,
+      "outcome": "I judge people by their actions, not their words."
+    },
+    {
+      "roll": 2,
+      "outcome": "If someone is in trouble, I’m always ready to lend help."
+    },
+    {
+      "roll": 3,
+      "outcome": "When I set my mind to something, I follow through no matter what gets in my way."
+    },
+    {
+      "roll": 4,
+      "outcome": "I have a strong sense of fair play and always try to find the most equitable solution to arguments."
+    },
+    {
+      "roll": 5,
+      "outcome": "I’m confident in my own abilities and do what I can to instill confidence in others."
+    },
+    {
+      "roll": 6,
+      "outcome": "Thinking is for other people. I prefer action."
+    },
+    {
+      "roll": 7,
+      "outcome": "I misuse long words in an attempt to sound smarter."
+    },
+    {
+      "roll": 8,
+      "outcome": "I get bored easily. When am I going to get on with my destiny?"
+    }
   ],
   "ideal": [
+    {
+      "id": 1,
+      "outcome": "*Respect*. People deserve to be treated with dignity and respect. (Good)"
+    },
+    {
+      "id": 2,
+      "outcome": "*Fairness*. No one should get preferential treatment before the law, and no one is above the law. (Lawful)"
+    },
+    {
+      "id": 3,
+      "outcome": "*Freedom*. Tyrants must not be allowed to oppress the people. (Chaotic)"
+    },
+    {
+      "id": 4,
+      "outcome": "*Might*. If I become strong, I can take what I want—what I deserve. (Evil)"
+    },
+    {
+      "id": 5,
+      "outcome": "*Sincerity*. There’s no good in pretending to be something I’m not. (Neutral)"
+    },
+    {
+      "id": 6,
+      "outcome": "*Destiny*. Nothing and no one can steer me away from my higher calling. (Any)"
+    }
   ],
   "bond": [
+    {
+      "id": 1,
+      "outcome": "I have a family, but I have no idea where they are. One day, I hope to see them again."
+    },
+    {
+      "id": 2,
+      "outcome": "I worked the land, I love the land, and I will protect the land."
+    },
+    {
+      "id": 3,
+      "outcome": "A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter."
+    },
+    {
+      "id": 4,
+      "outcome": "My tools are symbols of my past life, and I carry them so that I will never forget my roots."
+    },
+    {
+      "id": 5,
+      "outcome": "I protect those who cannot protect themselves."
+    },
+    {
+      "id": 6,
+      "outcome": "I wish my childhood sweetheart had come with me to pursue my destiny."
+    }
   ],
   "flaw": [
+    {
+      "id": 1,
+      "outcome": "The tyrant who rules my land will stop at nothing to see me killed.\n"
+    },
+    {
+      "id": 2,
+      "outcome": "I’m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure."
+    },
+    {
+      "id": 3,
+      "outcome": "The people who knew me when I was young know my shameful secret, so I can never go home again."
+    },
+    {
+      "id": 4,
+      "outcome": "I have a weakness for the vices of the city, especially hard drink."
+    },
+    {
+      "id": 5,
+      "outcome": "Secretly, I believe that things would be better if I were a tyrant lording over the land."
+    },
+    {
+      "id": 6,
+      "outcome": "I have trouble trusting in my allies."
+    }
   ]
 }

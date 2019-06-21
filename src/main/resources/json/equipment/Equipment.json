@@ -4,8 +4,35 @@
     "name": "Explorers Pack",
     "type": "Pack",
     "weight": 59,
-    "amount": 1,
     "value": 10,
+    "rarity": "Standard",
     "description": "Standard Explorers pack"
+  },
+  {
+    "id": 1,
+    "name": "Shovel",
+    "type": "Adventuring Gear",
+    "weight": 5,
+    "value": 1,
+    "rarity": "Standard",
+    "description": "Shovel"
+  },
+  {
+    "id": 2,
+    "name": "Iron Pot",
+    "type": "Adventuring Gear",
+    "weight": 10,
+    "value": 1,
+    "rarity": "Standard",
+    "description": "Iron Pot"
+  },
+  {
+    "id": 3,
+    "name": "Common Clothes",
+    "type": "Adventuring Gear (Clothing)",
+    "weight": 3,
+    "value": 1,
+    "rarity": "Standard",
+    "description": "A set of common clothes"
   }
 ]
